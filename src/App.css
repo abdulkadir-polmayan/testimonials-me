@@ -1,0 +1,68 @@
+body{
+        font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    background-color: #f2f2f2;
+    padding:20px 200px 20px 200px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 133, 250);
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+.testi-div{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.145em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testi-line{
+    width: 225px;
+    height: 0px;
+    left: 75px;
+    top: 108px;
+    border: 1px solid #000000;
+}
+.testi{
+    display: inline-block;
+}
+
+.testimonials{
+    display: flex;
+    display: inline-block;
+    
+}
+.testimonial{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 20px 50px 20px;
+    background-color: rgba(108, 228, 255, 0.501); 
+    padding:50px 0 50px 0;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.photo{
+    width: 200px;
+    height: 200px;
+    background: #FF6161;
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
